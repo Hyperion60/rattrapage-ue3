@@ -98,6 +98,7 @@ public class Main {
         init_db(connection, lists);
         connection.close();
         System.out.println("Done");
+        System.out.println("Waiting clients...");
 
         // Server thread
         ServerSocket server = null;
