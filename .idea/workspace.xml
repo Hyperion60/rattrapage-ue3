@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="349dfb52-79d5-4744-ae09-e02c46503253" name="Changes" comment="First server version">
+    <list default="true" id="349dfb52-79d5-4744-ae09-e02c46503253" name="Changes" comment="Add new log line at startup">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/server/ServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "5fd204b4-0c24-46ad-967a-50f3f8058ef5/schema/\"mydatabase\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;5fd204b4-0c24-46ad-967a-50f3f8058ef5/schema/\&quot;mydatabase\&quot;&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.server" />
@@ -103,7 +109,12 @@
       <updated>1695029667919</updated>
       <workItem from="1695029668971" duration="11569000" />
       <workItem from="1695107264550" duration="12235000" />
-      <workItem from="1695288727186" duration="7041000" />
+      <workItem from="1695288727186" duration="8162000" />
+      <workItem from="1695829886254" duration="608000" />
+      <workItem from="1696002437435" duration="38000" />
+      <workItem from="1696161540350" duration="11404000" />
+      <workItem from="1696318887353" duration="10513000" />
+      <workItem from="1696404880390" duration="3522000" />
     </task>
     <task id="LOCAL-00001" summary="First server version">
       <option name="closed" value="true" />
@@ -113,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695304628033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new log line at startup">
+      <option name="closed" value="true" />
+      <created>1695304793314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695304793314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +147,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -136,6 +167,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First server version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First server version" />
+    <MESSAGE value="Add new log line at startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new log line at startup" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/db/Database.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/db/Database.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/account/Account.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/server/Parser.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/db/Database.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

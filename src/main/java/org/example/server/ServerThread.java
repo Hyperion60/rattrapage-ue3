@@ -44,6 +44,7 @@ public class ServerThread implements Runnable {
 
             if (line.isEmpty()) {
                 this.stream.ecrireReseau("Error: Unknown command");
+                continue;
             }
 
             // Parser line

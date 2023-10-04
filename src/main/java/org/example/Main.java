@@ -88,7 +88,7 @@ public class Main {
         } catch (SQLException e) {
             e.printStackTrace(System.out);
         }
-        Account.createAccount(connection, globals, "admin", "pass");
+        Account.initCreateAccount(connection, globals, "admin", "pass");
     }
     public static void main(String[] args) throws SQLException {
         // Initialization

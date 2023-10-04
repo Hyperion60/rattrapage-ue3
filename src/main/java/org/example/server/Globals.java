@@ -22,4 +22,8 @@ public class Globals {
         }
         return "";
     }
+
+    public void addUsername(int id, String name) {
+        this.listUser.add(new User(id, name, ""));
+    }
 }
